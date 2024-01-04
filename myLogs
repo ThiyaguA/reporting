@@ -1,0 +1,754 @@
+2024-01-04T08:11:19.340+05:30  INFO 18092 --- [main] com.reporting.ReportingApplication       : Starting ReportingApplication using Java 17.0.9 with PID 18092 (C:\Users\HP\Downloads\reporting\reporting\build\classes\java\main started by HP in C:\Users\HP\Downloads\reporting)
+2024-01-04T08:11:19.365+05:30  INFO 18092 --- [main] com.reporting.ReportingApplication       : The following 1 profile is active: "prod"
+2024-01-04T08:11:25.381+05:30  INFO 18092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-04T08:11:25.457+05:30  INFO 18092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 0 JPA repository interfaces.
+2024-01-04T08:11:30.295+05:30  INFO 18092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9091 (http)
+2024-01-04T08:11:30.331+05:30  INFO 18092 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-04T08:11:30.333+05:30  INFO 18092 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-04T08:11:30.872+05:30  INFO 18092 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-04T08:11:30.873+05:30  INFO 18092 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 10822 ms
+2024-01-04T08:11:32.482+05:30  INFO 18092 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-04T08:11:34.108+05:30  INFO 18092 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71262020
+2024-01-04T08:11:34.114+05:30  INFO 18092 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-04T08:11:34.242+05:30  INFO 18092 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-04T08:11:35.347+05:30  INFO 18092 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-04T08:11:35.583+05:30  INFO 18092 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-04T08:11:37.099+05:30  INFO 18092 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-04T08:11:39.815+05:30  INFO 18092 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-04T08:11:39.829+05:30  INFO 18092 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-04T08:11:41.348+05:30  WARN 18092 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-04T08:11:49.016+05:30  INFO 18092 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-01-04T08:11:49.382+05:30  INFO 18092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9091 (http) with context path ''
+2024-01-04T08:11:49.442+05:30  INFO 18092 --- [main] com.reporting.ReportingApplication       : Started ReportingApplication in 32.119 seconds (process running for 43.709)
+2024-01-04T08:11:53.948+05:30  INFO 18092 --- [http-nio-9091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-04T08:11:53.949+05:30  INFO 18092 --- [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-04T08:11:53.955+05:30  INFO 18092 --- [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-01-04T08:11:55.978+05:30  INFO 18092 --- [http-nio-9091-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 870 ms
+2024-01-04T08:12:00.520+05:30  INFO 18092 --- [http-nio-9091-exec-5] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:00.522+05:30  INFO 18092 --- [http-nio-9091-exec-5] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.028+05:30  INFO 18092 --- [http-nio-9091-exec-6] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.030+05:30  INFO 18092 --- [http-nio-9091-exec-6] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.055+05:30  INFO 18092 --- [http-nio-9091-exec-7] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.055+05:30  INFO 18092 --- [http-nio-9091-exec-7] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.069+05:30  INFO 18092 --- [http-nio-9091-exec-10] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.070+05:30  INFO 18092 --- [http-nio-9091-exec-10] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.082+05:30  INFO 18092 --- [http-nio-9091-exec-8] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.082+05:30  INFO 18092 --- [http-nio-9091-exec-8] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.089+05:30  INFO 18092 --- [http-nio-9091-exec-9] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.091+05:30  INFO 18092 --- [http-nio-9091-exec-9] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.104+05:30  INFO 18092 --- [http-nio-9091-exec-1] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.104+05:30  INFO 18092 --- [http-nio-9091-exec-1] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.117+05:30  INFO 18092 --- [http-nio-9091-exec-2] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.119+05:30  INFO 18092 --- [http-nio-9091-exec-2] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.131+05:30  INFO 18092 --- [http-nio-9091-exec-3] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.132+05:30  INFO 18092 --- [http-nio-9091-exec-3] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.139+05:30  INFO 18092 --- [http-nio-9091-exec-4] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.141+05:30  INFO 18092 --- [http-nio-9091-exec-4] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.152+05:30  INFO 18092 --- [http-nio-9091-exec-11] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.153+05:30  INFO 18092 --- [http-nio-9091-exec-11] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.166+05:30  INFO 18092 --- [http-nio-9091-exec-12] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.167+05:30  INFO 18092 --- [http-nio-9091-exec-12] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.175+05:30  INFO 18092 --- [http-nio-9091-exec-13] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.175+05:30  INFO 18092 --- [http-nio-9091-exec-13] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.187+05:30  INFO 18092 --- [http-nio-9091-exec-14] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.190+05:30  INFO 18092 --- [http-nio-9091-exec-14] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.201+05:30  INFO 18092 --- [http-nio-9091-exec-15] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.201+05:30  INFO 18092 --- [http-nio-9091-exec-15] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.209+05:30  INFO 18092 --- [http-nio-9091-exec-16] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.213+05:30  INFO 18092 --- [http-nio-9091-exec-16] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.223+05:30  INFO 18092 --- [http-nio-9091-exec-17] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.223+05:30  INFO 18092 --- [http-nio-9091-exec-17] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.234+05:30  INFO 18092 --- [http-nio-9091-exec-18] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.235+05:30  INFO 18092 --- [http-nio-9091-exec-18] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.243+05:30  INFO 18092 --- [http-nio-9091-exec-19] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.244+05:30  INFO 18092 --- [http-nio-9091-exec-19] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.255+05:30  INFO 18092 --- [http-nio-9091-exec-20] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.256+05:30  INFO 18092 --- [http-nio-9091-exec-20] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.265+05:30  INFO 18092 --- [http-nio-9091-exec-21] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.265+05:30  INFO 18092 --- [http-nio-9091-exec-21] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.273+05:30  INFO 18092 --- [http-nio-9091-exec-22] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.273+05:30  INFO 18092 --- [http-nio-9091-exec-22] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.281+05:30  INFO 18092 --- [http-nio-9091-exec-23] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.283+05:30  INFO 18092 --- [http-nio-9091-exec-23] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.291+05:30  INFO 18092 --- [http-nio-9091-exec-24] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.292+05:30  INFO 18092 --- [http-nio-9091-exec-24] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.301+05:30  INFO 18092 --- [http-nio-9091-exec-25] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.303+05:30  INFO 18092 --- [http-nio-9091-exec-25] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.317+05:30  INFO 18092 --- [http-nio-9091-exec-26] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.318+05:30  INFO 18092 --- [http-nio-9091-exec-26] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.371+05:30  INFO 18092 --- [http-nio-9091-exec-27] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.372+05:30  INFO 18092 --- [http-nio-9091-exec-27] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.418+05:30  INFO 18092 --- [http-nio-9091-exec-28] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.419+05:30  INFO 18092 --- [http-nio-9091-exec-28] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.436+05:30  INFO 18092 --- [http-nio-9091-exec-29] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.437+05:30  INFO 18092 --- [http-nio-9091-exec-29] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.446+05:30  INFO 18092 --- [http-nio-9091-exec-30] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.446+05:30  INFO 18092 --- [http-nio-9091-exec-30] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.456+05:30  INFO 18092 --- [http-nio-9091-exec-31] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.457+05:30  INFO 18092 --- [http-nio-9091-exec-31] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.465+05:30  INFO 18092 --- [http-nio-9091-exec-32] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.466+05:30  INFO 18092 --- [http-nio-9091-exec-32] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.474+05:30  INFO 18092 --- [http-nio-9091-exec-33] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.474+05:30  INFO 18092 --- [http-nio-9091-exec-33] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.482+05:30  INFO 18092 --- [http-nio-9091-exec-34] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.483+05:30  INFO 18092 --- [http-nio-9091-exec-34] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.492+05:30  INFO 18092 --- [http-nio-9091-exec-35] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.493+05:30  INFO 18092 --- [http-nio-9091-exec-35] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.503+05:30  INFO 18092 --- [http-nio-9091-exec-36] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.504+05:30  INFO 18092 --- [http-nio-9091-exec-36] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.524+05:30  INFO 18092 --- [http-nio-9091-exec-37] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.525+05:30  INFO 18092 --- [http-nio-9091-exec-37] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.539+05:30  INFO 18092 --- [http-nio-9091-exec-38] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.541+05:30  INFO 18092 --- [http-nio-9091-exec-38] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.551+05:30  INFO 18092 --- [http-nio-9091-exec-39] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.552+05:30  INFO 18092 --- [http-nio-9091-exec-39] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.566+05:30  INFO 18092 --- [http-nio-9091-exec-40] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.567+05:30  INFO 18092 --- [http-nio-9091-exec-40] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.577+05:30  INFO 18092 --- [http-nio-9091-exec-41] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.582+05:30  INFO 18092 --- [http-nio-9091-exec-41] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.592+05:30  INFO 18092 --- [http-nio-9091-exec-42] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.593+05:30  INFO 18092 --- [http-nio-9091-exec-42] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.606+05:30  INFO 18092 --- [http-nio-9091-exec-43] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.608+05:30  INFO 18092 --- [http-nio-9091-exec-43] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.627+05:30  INFO 18092 --- [http-nio-9091-exec-44] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.628+05:30  INFO 18092 --- [http-nio-9091-exec-44] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.638+05:30  INFO 18092 --- [http-nio-9091-exec-45] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.638+05:30  INFO 18092 --- [http-nio-9091-exec-45] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.646+05:30  INFO 18092 --- [http-nio-9091-exec-46] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.647+05:30  INFO 18092 --- [http-nio-9091-exec-46] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.654+05:30  INFO 18092 --- [http-nio-9091-exec-47] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.657+05:30  INFO 18092 --- [http-nio-9091-exec-47] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.671+05:30  INFO 18092 --- [http-nio-9091-exec-48] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.672+05:30  INFO 18092 --- [http-nio-9091-exec-48] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.684+05:30  INFO 18092 --- [http-nio-9091-exec-49] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.684+05:30  INFO 18092 --- [http-nio-9091-exec-49] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.703+05:30  INFO 18092 --- [http-nio-9091-exec-50] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.704+05:30  INFO 18092 --- [http-nio-9091-exec-50] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.765+05:30  INFO 18092 --- [http-nio-9091-exec-51] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.765+05:30  INFO 18092 --- [http-nio-9091-exec-51] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.786+05:30  INFO 18092 --- [http-nio-9091-exec-52] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.787+05:30  INFO 18092 --- [http-nio-9091-exec-52] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.816+05:30  INFO 18092 --- [http-nio-9091-exec-53] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.818+05:30  INFO 18092 --- [http-nio-9091-exec-53] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.828+05:30  INFO 18092 --- [http-nio-9091-exec-54] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.832+05:30  INFO 18092 --- [http-nio-9091-exec-54] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.842+05:30  INFO 18092 --- [http-nio-9091-exec-55] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.842+05:30  INFO 18092 --- [http-nio-9091-exec-55] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.852+05:30  INFO 18092 --- [http-nio-9091-exec-56] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.853+05:30  INFO 18092 --- [http-nio-9091-exec-56] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.863+05:30  INFO 18092 --- [http-nio-9091-exec-57] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.864+05:30  INFO 18092 --- [http-nio-9091-exec-57] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.872+05:30  INFO 18092 --- [http-nio-9091-exec-58] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.873+05:30  INFO 18092 --- [http-nio-9091-exec-58] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.884+05:30  INFO 18092 --- [http-nio-9091-exec-59] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.885+05:30  INFO 18092 --- [http-nio-9091-exec-59] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.892+05:30  INFO 18092 --- [http-nio-9091-exec-60] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.892+05:30  INFO 18092 --- [http-nio-9091-exec-60] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.900+05:30  INFO 18092 --- [http-nio-9091-exec-61] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.901+05:30  INFO 18092 --- [http-nio-9091-exec-61] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.909+05:30  INFO 18092 --- [http-nio-9091-exec-62] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.909+05:30  INFO 18092 --- [http-nio-9091-exec-62] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.917+05:30  INFO 18092 --- [http-nio-9091-exec-63] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.917+05:30  INFO 18092 --- [http-nio-9091-exec-63] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.925+05:30  INFO 18092 --- [http-nio-9091-exec-64] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.927+05:30  INFO 18092 --- [http-nio-9091-exec-64] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.948+05:30  INFO 18092 --- [http-nio-9091-exec-65] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.948+05:30  INFO 18092 --- [http-nio-9091-exec-65] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.957+05:30  INFO 18092 --- [http-nio-9091-exec-66] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.958+05:30  INFO 18092 --- [http-nio-9091-exec-66] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.968+05:30  INFO 18092 --- [http-nio-9091-exec-67] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.968+05:30  INFO 18092 --- [http-nio-9091-exec-67] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.977+05:30  INFO 18092 --- [http-nio-9091-exec-68] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.981+05:30  INFO 18092 --- [http-nio-9091-exec-68] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:02.992+05:30  INFO 18092 --- [http-nio-9091-exec-69] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:02.992+05:30  INFO 18092 --- [http-nio-9091-exec-69] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.004+05:30  INFO 18092 --- [http-nio-9091-exec-70] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.005+05:30  INFO 18092 --- [http-nio-9091-exec-70] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.018+05:30  INFO 18092 --- [http-nio-9091-exec-71] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.019+05:30  INFO 18092 --- [http-nio-9091-exec-71] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.027+05:30  INFO 18092 --- [http-nio-9091-exec-72] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.027+05:30  INFO 18092 --- [http-nio-9091-exec-72] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.036+05:30  INFO 18092 --- [http-nio-9091-exec-73] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.036+05:30  INFO 18092 --- [http-nio-9091-exec-73] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.043+05:30  INFO 18092 --- [http-nio-9091-exec-74] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.043+05:30  INFO 18092 --- [http-nio-9091-exec-74] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.050+05:30  INFO 18092 --- [http-nio-9091-exec-75] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.051+05:30  INFO 18092 --- [http-nio-9091-exec-75] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.056+05:30  INFO 18092 --- [http-nio-9091-exec-76] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.056+05:30  INFO 18092 --- [http-nio-9091-exec-76] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.071+05:30  INFO 18092 --- [http-nio-9091-exec-77] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.072+05:30  INFO 18092 --- [http-nio-9091-exec-77] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.082+05:30  INFO 18092 --- [http-nio-9091-exec-78] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.083+05:30  INFO 18092 --- [http-nio-9091-exec-78] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.090+05:30  INFO 18092 --- [http-nio-9091-exec-79] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.090+05:30  INFO 18092 --- [http-nio-9091-exec-79] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.098+05:30  INFO 18092 --- [http-nio-9091-exec-80] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.098+05:30  INFO 18092 --- [http-nio-9091-exec-80] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.106+05:30  INFO 18092 --- [http-nio-9091-exec-81] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.106+05:30  INFO 18092 --- [http-nio-9091-exec-81] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.116+05:30  INFO 18092 --- [http-nio-9091-exec-82] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.116+05:30  INFO 18092 --- [http-nio-9091-exec-82] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.122+05:30  INFO 18092 --- [http-nio-9091-exec-83] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.122+05:30  INFO 18092 --- [http-nio-9091-exec-83] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.134+05:30  INFO 18092 --- [http-nio-9091-exec-84] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.135+05:30  INFO 18092 --- [http-nio-9091-exec-84] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.143+05:30  INFO 18092 --- [http-nio-9091-exec-85] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.143+05:30  INFO 18092 --- [http-nio-9091-exec-85] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.164+05:30  INFO 18092 --- [http-nio-9091-exec-86] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.165+05:30  INFO 18092 --- [http-nio-9091-exec-86] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.176+05:30  INFO 18092 --- [http-nio-9091-exec-87] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.176+05:30  INFO 18092 --- [http-nio-9091-exec-87] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.187+05:30  INFO 18092 --- [http-nio-9091-exec-88] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.191+05:30  INFO 18092 --- [http-nio-9091-exec-88] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.223+05:30  INFO 18092 --- [http-nio-9091-exec-89] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.223+05:30  INFO 18092 --- [http-nio-9091-exec-89] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.232+05:30  INFO 18092 --- [http-nio-9091-exec-90] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.232+05:30  INFO 18092 --- [http-nio-9091-exec-90] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.243+05:30  INFO 18092 --- [http-nio-9091-exec-91] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.243+05:30  INFO 18092 --- [http-nio-9091-exec-91] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.253+05:30  INFO 18092 --- [http-nio-9091-exec-92] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.253+05:30  INFO 18092 --- [http-nio-9091-exec-92] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.271+05:30  INFO 18092 --- [http-nio-9091-exec-93] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.271+05:30  INFO 18092 --- [http-nio-9091-exec-93] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.282+05:30  INFO 18092 --- [http-nio-9091-exec-94] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.283+05:30  INFO 18092 --- [http-nio-9091-exec-94] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.289+05:30  INFO 18092 --- [http-nio-9091-exec-95] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.289+05:30  INFO 18092 --- [http-nio-9091-exec-95] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.301+05:30  INFO 18092 --- [http-nio-9091-exec-96] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.301+05:30  INFO 18092 --- [http-nio-9091-exec-96] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.314+05:30  INFO 18092 --- [http-nio-9091-exec-97] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.315+05:30  INFO 18092 --- [http-nio-9091-exec-97] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.322+05:30  INFO 18092 --- [http-nio-9091-exec-98] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.323+05:30  INFO 18092 --- [http-nio-9091-exec-98] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.339+05:30  INFO 18092 --- [http-nio-9091-exec-99] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.341+05:30  INFO 18092 --- [http-nio-9091-exec-99] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.349+05:30  INFO 18092 --- [http-nio-9091-exec-100] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.350+05:30  INFO 18092 --- [http-nio-9091-exec-100] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.356+05:30  INFO 18092 --- [http-nio-9091-exec-101] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.358+05:30  INFO 18092 --- [http-nio-9091-exec-101] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.367+05:30  INFO 18092 --- [http-nio-9091-exec-102] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.368+05:30  INFO 18092 --- [http-nio-9091-exec-102] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.375+05:30  INFO 18092 --- [http-nio-9091-exec-103] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.376+05:30  INFO 18092 --- [http-nio-9091-exec-103] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.383+05:30  INFO 18092 --- [http-nio-9091-exec-104] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.384+05:30  INFO 18092 --- [http-nio-9091-exec-104] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.390+05:30  INFO 18092 --- [http-nio-9091-exec-105] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.390+05:30  INFO 18092 --- [http-nio-9091-exec-105] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.396+05:30  INFO 18092 --- [http-nio-9091-exec-106] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.397+05:30  INFO 18092 --- [http-nio-9091-exec-106] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.404+05:30  INFO 18092 --- [http-nio-9091-exec-107] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.404+05:30  INFO 18092 --- [http-nio-9091-exec-107] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.413+05:30  INFO 18092 --- [http-nio-9091-exec-108] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.414+05:30  INFO 18092 --- [http-nio-9091-exec-108] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.423+05:30  INFO 18092 --- [http-nio-9091-exec-109] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.423+05:30  INFO 18092 --- [http-nio-9091-exec-109] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.433+05:30  INFO 18092 --- [http-nio-9091-exec-110] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.436+05:30  INFO 18092 --- [http-nio-9091-exec-110] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.458+05:30  INFO 18092 --- [http-nio-9091-exec-111] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.466+05:30  INFO 18092 --- [http-nio-9091-exec-111] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.507+05:30  INFO 18092 --- [http-nio-9091-exec-112] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.508+05:30  INFO 18092 --- [http-nio-9091-exec-112] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.524+05:30  INFO 18092 --- [http-nio-9091-exec-113] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.529+05:30  INFO 18092 --- [http-nio-9091-exec-113] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.543+05:30  INFO 18092 --- [http-nio-9091-exec-114] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.543+05:30  INFO 18092 --- [http-nio-9091-exec-114] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.553+05:30  INFO 18092 --- [http-nio-9091-exec-115] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.553+05:30  INFO 18092 --- [http-nio-9091-exec-115] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.559+05:30  INFO 18092 --- [http-nio-9091-exec-116] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.559+05:30  INFO 18092 --- [http-nio-9091-exec-116] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.567+05:30  INFO 18092 --- [http-nio-9091-exec-117] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.567+05:30  INFO 18092 --- [http-nio-9091-exec-117] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.574+05:30  INFO 18092 --- [http-nio-9091-exec-118] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.574+05:30  INFO 18092 --- [http-nio-9091-exec-118] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.582+05:30  INFO 18092 --- [http-nio-9091-exec-119] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.582+05:30  INFO 18092 --- [http-nio-9091-exec-119] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.588+05:30  INFO 18092 --- [http-nio-9091-exec-120] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.588+05:30  INFO 18092 --- [http-nio-9091-exec-120] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.596+05:30  INFO 18092 --- [http-nio-9091-exec-121] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.597+05:30  INFO 18092 --- [http-nio-9091-exec-121] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.608+05:30  INFO 18092 --- [http-nio-9091-exec-122] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.609+05:30  INFO 18092 --- [http-nio-9091-exec-122] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.618+05:30  INFO 18092 --- [http-nio-9091-exec-123] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.619+05:30  INFO 18092 --- [http-nio-9091-exec-123] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.633+05:30  INFO 18092 --- [http-nio-9091-exec-124] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.633+05:30  INFO 18092 --- [http-nio-9091-exec-124] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.644+05:30  INFO 18092 --- [http-nio-9091-exec-125] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.645+05:30  INFO 18092 --- [http-nio-9091-exec-125] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.652+05:30  INFO 18092 --- [http-nio-9091-exec-126] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.652+05:30  INFO 18092 --- [http-nio-9091-exec-126] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.659+05:30  INFO 18092 --- [http-nio-9091-exec-127] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.659+05:30  INFO 18092 --- [http-nio-9091-exec-127] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.679+05:30  INFO 18092 --- [http-nio-9091-exec-128] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.700+05:30  INFO 18092 --- [http-nio-9091-exec-128] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.716+05:30  INFO 18092 --- [http-nio-9091-exec-129] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.716+05:30  INFO 18092 --- [http-nio-9091-exec-129] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.724+05:30  INFO 18092 --- [http-nio-9091-exec-130] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.724+05:30  INFO 18092 --- [http-nio-9091-exec-130] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.748+05:30  INFO 18092 --- [http-nio-9091-exec-131] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.749+05:30  INFO 18092 --- [http-nio-9091-exec-131] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.758+05:30  INFO 18092 --- [http-nio-9091-exec-132] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.758+05:30  INFO 18092 --- [http-nio-9091-exec-132] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.769+05:30  INFO 18092 --- [http-nio-9091-exec-133] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.771+05:30  INFO 18092 --- [http-nio-9091-exec-133] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.782+05:30  INFO 18092 --- [http-nio-9091-exec-134] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.782+05:30  INFO 18092 --- [http-nio-9091-exec-134] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.788+05:30  INFO 18092 --- [http-nio-9091-exec-135] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.789+05:30  INFO 18092 --- [http-nio-9091-exec-135] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.798+05:30  INFO 18092 --- [http-nio-9091-exec-136] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.799+05:30  INFO 18092 --- [http-nio-9091-exec-136] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.818+05:30  INFO 18092 --- [http-nio-9091-exec-137] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.818+05:30  INFO 18092 --- [http-nio-9091-exec-137] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.830+05:30  INFO 18092 --- [http-nio-9091-exec-138] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.830+05:30  INFO 18092 --- [http-nio-9091-exec-138] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.837+05:30  INFO 18092 --- [http-nio-9091-exec-139] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.837+05:30  INFO 18092 --- [http-nio-9091-exec-139] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.846+05:30  INFO 18092 --- [http-nio-9091-exec-140] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.847+05:30  INFO 18092 --- [http-nio-9091-exec-140] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.853+05:30  INFO 18092 --- [http-nio-9091-exec-141] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.854+05:30  INFO 18092 --- [http-nio-9091-exec-141] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.863+05:30  INFO 18092 --- [http-nio-9091-exec-142] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.864+05:30  INFO 18092 --- [http-nio-9091-exec-142] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.876+05:30  INFO 18092 --- [http-nio-9091-exec-143] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.879+05:30  INFO 18092 --- [http-nio-9091-exec-143] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.893+05:30  INFO 18092 --- [http-nio-9091-exec-144] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.896+05:30  INFO 18092 --- [http-nio-9091-exec-144] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.913+05:30  INFO 18092 --- [http-nio-9091-exec-145] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.913+05:30  INFO 18092 --- [http-nio-9091-exec-145] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.920+05:30  INFO 18092 --- [http-nio-9091-exec-146] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.921+05:30  INFO 18092 --- [http-nio-9091-exec-146] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.926+05:30  INFO 18092 --- [http-nio-9091-exec-147] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.929+05:30  INFO 18092 --- [http-nio-9091-exec-147] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.938+05:30  INFO 18092 --- [http-nio-9091-exec-148] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.940+05:30  INFO 18092 --- [http-nio-9091-exec-148] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.946+05:30  INFO 18092 --- [http-nio-9091-exec-149] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.947+05:30  INFO 18092 --- [http-nio-9091-exec-149] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.952+05:30  INFO 18092 --- [http-nio-9091-exec-150] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.952+05:30  INFO 18092 --- [http-nio-9091-exec-150] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.957+05:30  INFO 18092 --- [http-nio-9091-exec-151] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.957+05:30  INFO 18092 --- [http-nio-9091-exec-151] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.968+05:30  INFO 18092 --- [http-nio-9091-exec-152] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.968+05:30  INFO 18092 --- [http-nio-9091-exec-152] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.981+05:30  INFO 18092 --- [http-nio-9091-exec-153] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.981+05:30  INFO 18092 --- [http-nio-9091-exec-153] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.986+05:30  INFO 18092 --- [http-nio-9091-exec-154] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.986+05:30  INFO 18092 --- [http-nio-9091-exec-154] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:03.993+05:30  INFO 18092 --- [http-nio-9091-exec-155] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:03.993+05:30  INFO 18092 --- [http-nio-9091-exec-155] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.006+05:30  INFO 18092 --- [http-nio-9091-exec-156] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.006+05:30  INFO 18092 --- [http-nio-9091-exec-156] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.018+05:30  INFO 18092 --- [http-nio-9091-exec-157] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.019+05:30  INFO 18092 --- [http-nio-9091-exec-157] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.035+05:30  INFO 18092 --- [http-nio-9091-exec-158] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.035+05:30  INFO 18092 --- [http-nio-9091-exec-158] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.068+05:30  INFO 18092 --- [http-nio-9091-exec-159] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.068+05:30  INFO 18092 --- [http-nio-9091-exec-159] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.087+05:30  INFO 18092 --- [http-nio-9091-exec-160] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.088+05:30  INFO 18092 --- [http-nio-9091-exec-160] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.114+05:30  INFO 18092 --- [http-nio-9091-exec-161] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.114+05:30  INFO 18092 --- [http-nio-9091-exec-161] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.119+05:30  INFO 18092 --- [http-nio-9091-exec-162] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.120+05:30  INFO 18092 --- [http-nio-9091-exec-162] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.126+05:30  INFO 18092 --- [http-nio-9091-exec-163] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.126+05:30  INFO 18092 --- [http-nio-9091-exec-163] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.134+05:30  INFO 18092 --- [http-nio-9091-exec-164] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.134+05:30  INFO 18092 --- [http-nio-9091-exec-164] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.138+05:30  INFO 18092 --- [http-nio-9091-exec-165] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.139+05:30  INFO 18092 --- [http-nio-9091-exec-165] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.146+05:30  INFO 18092 --- [http-nio-9091-exec-166] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.147+05:30  INFO 18092 --- [http-nio-9091-exec-166] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.153+05:30  INFO 18092 --- [http-nio-9091-exec-167] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.153+05:30  INFO 18092 --- [http-nio-9091-exec-167] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.159+05:30  INFO 18092 --- [http-nio-9091-exec-168] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.159+05:30  INFO 18092 --- [http-nio-9091-exec-168] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.168+05:30  INFO 18092 --- [http-nio-9091-exec-169] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.168+05:30  INFO 18092 --- [http-nio-9091-exec-169] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.175+05:30  INFO 18092 --- [http-nio-9091-exec-170] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.175+05:30  INFO 18092 --- [http-nio-9091-exec-170] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.183+05:30  INFO 18092 --- [http-nio-9091-exec-171] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.183+05:30  INFO 18092 --- [http-nio-9091-exec-171] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.192+05:30  INFO 18092 --- [http-nio-9091-exec-172] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.193+05:30  INFO 18092 --- [http-nio-9091-exec-172] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.198+05:30  INFO 18092 --- [http-nio-9091-exec-173] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.198+05:30  INFO 18092 --- [http-nio-9091-exec-173] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.204+05:30  INFO 18092 --- [http-nio-9091-exec-174] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.204+05:30  INFO 18092 --- [http-nio-9091-exec-174] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.218+05:30  INFO 18092 --- [http-nio-9091-exec-175] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.222+05:30  INFO 18092 --- [http-nio-9091-exec-175] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.241+05:30  INFO 18092 --- [http-nio-9091-exec-176] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.242+05:30  INFO 18092 --- [http-nio-9091-exec-176] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.249+05:30  INFO 18092 --- [http-nio-9091-exec-177] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.252+05:30  INFO 18092 --- [http-nio-9091-exec-177] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.257+05:30  INFO 18092 --- [http-nio-9091-exec-178] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.258+05:30  INFO 18092 --- [http-nio-9091-exec-178] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.265+05:30  INFO 18092 --- [http-nio-9091-exec-179] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.265+05:30  INFO 18092 --- [http-nio-9091-exec-179] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.271+05:30  INFO 18092 --- [http-nio-9091-exec-180] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.273+05:30  INFO 18092 --- [http-nio-9091-exec-180] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.286+05:30  INFO 18092 --- [http-nio-9091-exec-181] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.286+05:30  INFO 18092 --- [http-nio-9091-exec-181] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.297+05:30  INFO 18092 --- [http-nio-9091-exec-182] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.297+05:30  INFO 18092 --- [http-nio-9091-exec-182] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.304+05:30  INFO 18092 --- [http-nio-9091-exec-183] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.305+05:30  INFO 18092 --- [http-nio-9091-exec-183] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.315+05:30  INFO 18092 --- [http-nio-9091-exec-184] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.315+05:30  INFO 18092 --- [http-nio-9091-exec-184] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.321+05:30  INFO 18092 --- [http-nio-9091-exec-185] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.321+05:30  INFO 18092 --- [http-nio-9091-exec-185] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.329+05:30  INFO 18092 --- [http-nio-9091-exec-186] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.329+05:30  INFO 18092 --- [http-nio-9091-exec-186] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.334+05:30  INFO 18092 --- [http-nio-9091-exec-187] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.335+05:30  INFO 18092 --- [http-nio-9091-exec-187] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.342+05:30  INFO 18092 --- [http-nio-9091-exec-188] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.346+05:30  INFO 18092 --- [http-nio-9091-exec-188] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.352+05:30  INFO 18092 --- [http-nio-9091-exec-189] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.352+05:30  INFO 18092 --- [http-nio-9091-exec-189] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.358+05:30  INFO 18092 --- [http-nio-9091-exec-190] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.359+05:30  INFO 18092 --- [http-nio-9091-exec-190] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.372+05:30  INFO 18092 --- [http-nio-9091-exec-191] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.373+05:30  INFO 18092 --- [http-nio-9091-exec-191] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.379+05:30  INFO 18092 --- [http-nio-9091-exec-192] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.382+05:30  INFO 18092 --- [http-nio-9091-exec-192] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.388+05:30  INFO 18092 --- [http-nio-9091-exec-193] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.388+05:30  INFO 18092 --- [http-nio-9091-exec-193] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.393+05:30  INFO 18092 --- [http-nio-9091-exec-194] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.395+05:30  INFO 18092 --- [http-nio-9091-exec-194] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.401+05:30  INFO 18092 --- [http-nio-9091-exec-195] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.402+05:30  INFO 18092 --- [http-nio-9091-exec-195] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.408+05:30  INFO 18092 --- [http-nio-9091-exec-196] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.412+05:30  INFO 18092 --- [http-nio-9091-exec-196] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.418+05:30  INFO 18092 --- [http-nio-9091-exec-197] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.419+05:30  INFO 18092 --- [http-nio-9091-exec-197] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.429+05:30  INFO 18092 --- [http-nio-9091-exec-198] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.429+05:30  INFO 18092 --- [http-nio-9091-exec-198] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.435+05:30  INFO 18092 --- [http-nio-9091-exec-199] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.435+05:30  INFO 18092 --- [http-nio-9091-exec-199] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:12:04.442+05:30  INFO 18092 --- [http-nio-9091-exec-200] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:12:04.442+05:30  INFO 18092 --- [http-nio-9091-exec-200] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/reporting
+2024-01-04T08:16:30.358+05:30  INFO 11496 --- [main] com.reporting.ReportingApplication       : Starting ReportingApplication using Java 17.0.9 with PID 11496 (C:\Users\HP\Downloads\reporting\reporting\build\classes\java\main started by HP in C:\Users\HP\Downloads\reporting)
+2024-01-04T08:16:30.366+05:30  INFO 11496 --- [main] com.reporting.ReportingApplication       : The following 1 profile is active: "prod"
+2024-01-04T08:16:34.730+05:30  INFO 11496 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-04T08:16:34.975+05:30  INFO 11496 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 211 ms. Found 0 JPA repository interfaces.
+2024-01-04T08:16:40.989+05:30  INFO 11496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9091 (http)
+2024-01-04T08:16:41.024+05:30  INFO 11496 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-04T08:16:41.025+05:30  INFO 11496 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-04T08:16:41.360+05:30  INFO 11496 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-04T08:16:41.363+05:30  INFO 11496 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 10803 ms
+2024-01-04T08:16:43.354+05:30  INFO 11496 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-04T08:16:44.522+05:30  INFO 11496 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16fc5622
+2024-01-04T08:16:44.527+05:30  INFO 11496 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-04T08:16:44.762+05:30  INFO 11496 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-04T08:16:45.492+05:30  INFO 11496 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-04T08:16:45.658+05:30  INFO 11496 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-04T08:16:46.542+05:30  INFO 11496 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-04T08:16:48.085+05:30  INFO 11496 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-04T08:16:48.106+05:30  INFO 11496 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-04T08:16:50.124+05:30  WARN 11496 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-04T08:17:01.156+05:30  INFO 11496 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-01-04T08:17:01.525+05:30  INFO 11496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9091 (http) with context path ''
+2024-01-04T08:17:01.919+05:30  INFO 11496 --- [main] com.reporting.ReportingApplication       : Started ReportingApplication in 33.065 seconds (process running for 34.262)
+2024-01-04T08:17:12.185+05:30  INFO 11496 --- [http-nio-9091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-04T08:17:12.186+05:30  INFO 11496 --- [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-04T08:17:12.198+05:30  INFO 11496 --- [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2024-01-04T08:17:14.008+05:30  INFO 11496 --- [http-nio-9091-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 989 ms
+2024-01-04T08:17:17.763+05:30  INFO 11496 --- [http-nio-9091-exec-5] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:17:17.764+05:30  INFO 11496 --- [http-nio-9091-exec-5] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9091/api/v1/banks
+2024-01-04T08:17:19.344+05:30 ERROR 11496 --- [http-nio-9091-exec-5] c.reporting.controller.ReportController  : Not Found 
+
+org.springframework.web.reactive.function.client.WebClientResponseException$NotFound: 404 Not Found from GET http://localhost:9091/api/v1/banks
+	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:310) ~[spring-webflux-6.1.2.jar:6.1.2]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ? 404 NOT_FOUND from GET http://localhost:9091/api/v1/banks [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:310) ~[spring-webflux-6.1.2.jar:6.1.2]
+		at org.springframework.web.reactive.function.client.DefaultClientResponse.lambda$createException$1(DefaultClientResponse.java:214) ~[spring-webflux-6.1.2.jar:6.1.2]
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:106) ~[reactor-core-3.6.1.jar:3.6.1]
+		at reactor.core.publisher.FluxOnErrorReturn$ReturnSubscriber.onNext(FluxOnErrorReturn.java:162) ~[reactor-core-3.6.1.jar:3.6.1]
+		at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onNext(FluxDefaultIfEmpty.java:122) ~[reactor-core-3.6.1.jar:3.6.1]
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:129) ~[reactor-core-3.6.1.jar:3.6.1]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107) ~[reactor-core-3.6.1.jar:3.6.1]
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:299) ~[reactor-core-3.6.1.jar:3.6.1]
+		at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:337) ~[reactor-core-3.6.1.jar:3.6.1]
+		at reactor.core.publisher.Operators$BaseFluxToMonoOperator.completePossiblyEmpty(Operators.java:2097) ~[reactor-core-3.6.1.jar:3.6.1]
+		at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:145) ~[reactor-core-3.6.1.jar:3.6.1]
+		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.6.1.jar:3.6.1]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260) ~[reactor-core-3.6.1.jar:3.6.1]
+		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.6.1.jar:3.6.1]
+		at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:415) ~[reactor-netty-core-1.1.14.jar:1.1.14]
+		at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:446) ~[reactor-netty-core-1.1.14.jar:1.1.14]
+		at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:500) ~[reactor-netty-core-1.1.14.jar:1.1.14]
+		at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:780) ~[reactor-netty-http-1.1.14.jar:1.1.14]
+		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:114) ~[reactor-netty-core-1.1.14.jar:1.1.14]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.104.Final.jar:4.1.104.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.104.Final.jar:4.1.104.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.104.Final.jar:4.1.104.Final]
+		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.104.Final.jar:4.1.104.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.104.Final.jar:4.1.104.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.104.Final.jar:4.1.104.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.104.Final.jar:4.1.104.Final]
+		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) ~[netty-transport-4.1.104.Final.jar:4.1.104.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.104.Final.jar:4.1.104.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.104.Final.jar:4.1.104.Final]
+		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) ~[netty-transport-4.1.104.Final.jar:4.1.104.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.104.Final.jar:4.1.104.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.104.Final.jar:4.1.104.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.104.Final.jar:4.1.104.Final]
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.104.Final.jar:4.1.104.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.104.Final.jar:4.1.104.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.104.Final.jar:4.1.104.Final]
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.104.Final.jar:4.1.104.Final]
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-transport-4.1.104.Final.jar:4.1.104.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.104.Final.jar:4.1.104.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.104.Final.jar:4.1.104.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.104.Final.jar:4.1.104.Final]
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.104.Final.jar:4.1.104.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.104.Final.jar:4.1.104.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.104.Final.jar:4.1.104.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.104.Final.jar:4.1.104.Final]
+		at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:103) ~[reactor-core-3.6.1.jar:3.6.1]
+		at reactor.core.publisher.Mono.block(Mono.java:1728) ~[reactor-core-3.6.1.jar:3.6.1]
+		at com.reporting.service.ReportingServiceImpl.getAllBanks(ReportingServiceImpl.java:30) ~[main/:na]
+		at com.reporting.controller.ReportController.getAllBanks(ReportController.java:30) ~[main/:na]
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+		at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:262) ~[spring-web-6.1.2.jar:6.1.2]
+		at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-6.1.2.jar:6.1.2]
+		at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.2.jar:6.1.2]
+		at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917) ~[spring-webmvc-6.1.2.jar:6.1.2]
+		at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829) ~[spring-webmvc-6.1.2.jar:6.1.2]
+		at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.2.jar:6.1.2]
+		at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.2.jar:6.1.2]
+		at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.2.jar:6.1.2]
+		at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.2.jar:6.1.2]
+		at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.2.jar:6.1.2]
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.17.jar:6.0]
+		at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.2.jar:6.1.2]
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.17.jar:6.0]
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.17.jar:10.1.17]
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+		at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.2.jar:6.1.2]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.2.jar:6.1.2]
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+		at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.2.jar:6.1.2]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.2.jar:6.1.2]
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+		at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109) ~[spring-web-6.1.2.jar:6.1.2]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.2.jar:6.1.2]
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+		at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.2.jar:6.1.2]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.2.jar:6.1.2]
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.17.jar:10.1.17]
+		at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2024-01-04T08:18:20.728+05:30  INFO 14448 --- [main] com.reporting.ReportingApplication       : Starting ReportingApplication using Java 17.0.9 with PID 14448 (C:\Users\HP\Downloads\reporting\reporting\build\classes\java\main started by HP in C:\Users\HP\Downloads\reporting)
+2024-01-04T08:18:20.735+05:30  INFO 14448 --- [main] com.reporting.ReportingApplication       : The following 1 profile is active: "prod"
+2024-01-04T08:18:24.967+05:30  INFO 14448 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-04T08:18:25.015+05:30  INFO 14448 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 0 JPA repository interfaces.
+2024-01-04T08:18:28.509+05:30  INFO 14448 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9091 (http)
+2024-01-04T08:18:28.546+05:30  INFO 14448 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-04T08:18:28.547+05:30  INFO 14448 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-04T08:18:28.906+05:30  INFO 14448 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-04T08:18:28.908+05:30  INFO 14448 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7853 ms
+2024-01-04T08:18:30.257+05:30  INFO 14448 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-04T08:18:31.475+05:30  INFO 14448 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16fc5622
+2024-01-04T08:18:31.480+05:30  INFO 14448 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-04T08:18:31.610+05:30  INFO 14448 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-04T08:18:32.095+05:30  INFO 14448 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-04T08:18:32.287+05:30  INFO 14448 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-04T08:18:33.218+05:30  INFO 14448 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-04T08:18:34.258+05:30  INFO 14448 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-04T08:18:34.271+05:30  INFO 14448 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-04T08:18:35.624+05:30  WARN 14448 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-04T08:18:44.412+05:30  INFO 14448 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-01-04T08:18:44.855+05:30  INFO 14448 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9091 (http) with context path ''
+2024-01-04T08:18:44.929+05:30  INFO 14448 --- [main] com.reporting.ReportingApplication       : Started ReportingApplication in 25.708 seconds (process running for 26.899)
+2024-01-04T08:18:48.458+05:30  INFO 14448 --- [http-nio-9091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-04T08:18:48.459+05:30  INFO 14448 --- [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-04T08:18:48.466+05:30  INFO 14448 --- [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-01-04T08:18:50.087+05:30  INFO 14448 --- [http-nio-9091-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 891 ms
+2024-01-04T08:18:54.110+05:30  INFO 14448 --- [http-nio-9091-exec-5] c.reporting.controller.ReportController  : Inside the ReportController.getAllBanks
+2024-01-04T08:18:54.111+05:30  INFO 14448 --- [http-nio-9091-exec-5] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.getAllBanks , url:http://localhost:9090/api/v1/banks
+2024-01-04T08:18:55.474+05:30  INFO 14448 --- [http-nio-9091-exec-5] c.r.service.ReportingServiceImpl         : Bank details, BankList:[BankDto(bankCode=0, bankName=DBS, bankAddress=Begur Rd, branchDto=[BranchDTO(branchAddress=Hongasandra, branchName=Hongasandra), BranchDTO(branchAddress=Arekere, branchName=Arekere)]), BankDto(bankCode=0, bankName=CITI, bankAddress=Velacherry, branchDto=[BranchDTO(branchAddress=Gandhipuram, branchName=Gandhipuram), BranchDTO(branchAddress=Velacherry, branchName=Velacherry)]), BankDto(bankCode=0, bankName=CANARA, bankAddress=Electronic City, branchDto=[]), BankDto(bankCode=0, bankName=HDFC, bankAddress=Begur Rd, branchDto=[]), BankDto(bankCode=0, bankName=Kotak, bankAddress=Race Course, branchDto=[BranchDTO(branchAddress=Race Course, branchName=CBE)])]
+2024-01-04T08:18:55.482+05:30  INFO 14448 --- [http-nio-9091-exec-5] c.reporting.controller.ReportController  : End of ReportController.getAllBanks
+2024-01-04T08:33:23.908+05:30  INFO 15236 --- [main] com.reporting.ReportingApplication       : Starting ReportingApplication using Java 17.0.9 with PID 15236 (C:\Users\HP\Downloads\reporting\reporting\build\classes\java\main started by HP in C:\Users\HP\Downloads\reporting)
+2024-01-04T08:33:23.915+05:30  INFO 15236 --- [main] com.reporting.ReportingApplication       : The following 1 profile is active: "prod"
+2024-01-04T08:33:28.687+05:30  INFO 15236 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-04T08:33:28.813+05:30  INFO 15236 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97 ms. Found 0 JPA repository interfaces.
+2024-01-04T08:33:32.979+05:30  INFO 15236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9091 (http)
+2024-01-04T08:33:33.015+05:30  INFO 15236 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-04T08:33:33.016+05:30  INFO 15236 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-04T08:33:33.296+05:30  INFO 15236 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-04T08:33:33.297+05:30  INFO 15236 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 9192 ms
+2024-01-04T08:33:35.673+05:30  INFO 15236 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-04T08:33:36.838+05:30  INFO 15236 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5310e451
+2024-01-04T08:33:36.846+05:30  INFO 15236 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-04T08:33:36.993+05:30  INFO 15236 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-04T08:33:37.419+05:30  INFO 15236 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-04T08:33:37.687+05:30  INFO 15236 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-04T08:33:38.806+05:30  INFO 15236 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-04T08:33:40.578+05:30  INFO 15236 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-04T08:33:40.594+05:30  INFO 15236 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-04T08:33:41.922+05:30  WARN 15236 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-04T08:33:52.926+05:30  INFO 15236 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-01-04T08:33:53.297+05:30  INFO 15236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9091 (http) with context path ''
+2024-01-04T08:33:53.373+05:30  INFO 15236 --- [main] com.reporting.ReportingApplication       : Started ReportingApplication in 31.497 seconds (process running for 32.855)
+2024-01-04T08:34:16.265+05:30  INFO 15236 --- [http-nio-9091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-04T08:34:16.269+05:30  INFO 15236 --- [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-04T08:34:16.274+05:30  INFO 15236 --- [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-01-04T08:34:16.853+05:30  INFO 15236 --- [http-nio-9091-exec-1] c.reporting.controller.ReportController  : Inside the ReportController.getBankDetailsById
+2024-01-04T08:34:16.854+05:30  INFO 15236 --- [http-nio-9091-exec-1] c.r.service.ReportingServiceImpl         : Inside the ReportingServiceImpl.findById Bank Code:4
+2024-01-04T08:34:19.201+05:30  INFO 15236 --- [http-nio-9091-exec-1] c.r.service.ReportingServiceImpl         : End of ReportingServiceImpl.findById
+2024-01-04T08:34:19.202+05:30  INFO 15236 --- [http-nio-9091-exec-1] c.reporting.controller.ReportController  : End of ReportController.getBankDetailsById
+2024-01-04T08:41:59.548+05:30  INFO 4752 --- [main] com.reporting.ReportingApplication       : Starting ReportingApplication using Java 17.0.9 with PID 4752 (C:\Users\HP\Downloads\reporting\reporting\build\classes\java\main started by HP in C:\Users\HP\Downloads\reporting)
+2024-01-04T08:41:59.555+05:30  INFO 4752 --- [main] com.reporting.ReportingApplication       : The following 1 profile is active: "prod"
+2024-01-04T08:42:03.045+05:30  INFO 4752 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-04T08:42:03.110+05:30  INFO 4752 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 0 JPA repository interfaces.
+2024-01-04T08:42:05.978+05:30  INFO 4752 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9091 (http)
+2024-01-04T08:42:06.013+05:30  INFO 4752 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-04T08:42:06.016+05:30  INFO 4752 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-04T08:42:06.306+05:30  INFO 4752 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-04T08:42:06.308+05:30  INFO 4752 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6465 ms
+2024-01-04T08:42:07.478+05:30  INFO 4752 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-04T08:42:08.758+05:30  INFO 4752 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@edbc2bf
+2024-01-04T08:42:08.764+05:30  INFO 4752 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-04T08:42:08.916+05:30  INFO 4752 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-04T08:42:09.327+05:30  INFO 4752 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-04T08:42:09.516+05:30  INFO 4752 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-04T08:42:10.423+05:30  INFO 4752 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-04T08:42:11.656+05:30  INFO 4752 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-04T08:42:11.671+05:30  INFO 4752 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-04T08:42:12.667+05:30  WARN 4752 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-04T08:42:19.555+05:30  INFO 4752 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-01-04T08:42:19.866+05:30  INFO 4752 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9091 (http) with context path ''
+2024-01-04T08:42:19.919+05:30  INFO 4752 --- [main] com.reporting.ReportingApplication       : Started ReportingApplication in 21.733 seconds (process running for 23.027)
+2024-01-04T08:42:30.821+05:30  INFO 4752 --- [http-nio-9091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-04T08:42:30.824+05:30  INFO 4752 --- [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-04T08:42:30.849+05:30  INFO 4752 --- [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-01-04T08:42:32.993+05:30  INFO 4752 --- [http-nio-9091-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 1037 ms
+2024-01-04T08:43:08.019+05:30  INFO 4752 --- [http-nio-9091-exec-5] c.r.service.ReportingServiceImpl         : Inside the BankServiceImpl.save Bank Request:BankRequest(bankCode=0, bankName=YES, bankAddress=Gandhipuram)
+2024-01-04T08:43:09.812+05:30  INFO 4752 --- [http-nio-9091-exec-5] c.r.service.ReportingServiceImpl         : End of BankServiceImpl.save
+2024-01-04T08:43:09.814+05:30  INFO 4752 --- [http-nio-9091-exec-5] c.reporting.controller.ReportController  : Inside the ReportController.saveBankDetails
+2024-01-04T08:43:09.817+05:30  INFO 4752 --- [http-nio-9091-exec-5] c.reporting.controller.ReportController  : Inside the ReportController.saveBankDetails
+2024-01-04T08:51:48.257+05:30  INFO 19188 --- [main] com.reporting.ReportingApplication       : Starting ReportingApplication using Java 17.0.9 with PID 19188 (C:\Users\HP\Downloads\reporting\reporting\build\classes\java\main started by HP in C:\Users\HP\Downloads\reporting)
+2024-01-04T08:51:48.265+05:30  INFO 19188 --- [main] com.reporting.ReportingApplication       : The following 1 profile is active: "prod"
+2024-01-04T08:51:56.484+05:30  INFO 19188 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-04T08:51:56.664+05:30  INFO 19188 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 0 JPA repository interfaces.
+2024-01-04T08:52:00.122+05:30  INFO 19188 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9091 (http)
+2024-01-04T08:52:00.149+05:30  INFO 19188 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-04T08:52:00.151+05:30  INFO 19188 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-04T08:52:00.466+05:30  INFO 19188 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-04T08:52:00.467+05:30  INFO 19188 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 11863 ms
+2024-01-04T08:52:02.033+05:30  INFO 19188 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-04T08:52:03.127+05:30  INFO 19188 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@714bffd5
+2024-01-04T08:52:03.133+05:30  INFO 19188 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-04T08:52:03.307+05:30  INFO 19188 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-04T08:52:03.881+05:30  INFO 19188 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-04T08:52:04.034+05:30  INFO 19188 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-04T08:52:05.034+05:30  INFO 19188 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-04T08:52:06.229+05:30  INFO 19188 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-04T08:52:06.242+05:30  INFO 19188 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-04T08:52:07.819+05:30  WARN 19188 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-04T08:52:15.471+05:30  INFO 19188 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-01-04T08:52:15.801+05:30  INFO 19188 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9091 (http) with context path ''
+2024-01-04T08:52:15.868+05:30  INFO 19188 --- [main] com.reporting.ReportingApplication       : Started ReportingApplication in 29.333 seconds (process running for 30.763)
+2024-01-04T08:52:24.956+05:30  INFO 19188 --- [http-nio-9091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-04T08:52:24.958+05:30  INFO 19188 --- [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-04T08:52:24.964+05:30  INFO 19188 --- [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2024-01-04T08:52:26.789+05:30  INFO 19188 --- [http-nio-9091-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 991 ms
+2024-01-04T08:53:01.295+05:30  INFO 19188 --- [http-nio-9091-exec-5] c.r.service.ReportingServiceImpl         : Inside the BankServiceImpl.save Bank Request:BankRequest(bankCode=22, bankName=YES, bankAddress=RS Puram)
+2024-01-04T08:53:02.802+05:30  INFO 19188 --- [http-nio-9091-exec-5] c.r.service.ReportingServiceImpl         : End of BankServiceImpl.save
+2024-01-04T08:53:02.803+05:30  INFO 19188 --- [http-nio-9091-exec-5] c.reporting.controller.ReportController  : Inside the ReportController.saveBankDetails
+2024-01-04T08:53:02.803+05:30  INFO 19188 --- [http-nio-9091-exec-5] c.reporting.controller.ReportController  : Inside the ReportController.saveBankDetails
+2024-01-04T08:54:11.838+05:30  INFO 19188 --- [http-nio-9091-exec-8] c.r.service.ReportingServiceImpl         : Inside the BankServiceImpl.update Bank Details:BankRequest(bankCode=22, bankName=YES, bankAddress=RS Puram)
+2024-01-04T08:54:11.966+05:30  INFO 19188 --- [http-nio-9091-exec-8] c.r.service.ReportingServiceImpl         : End of BankServiceImpl.update
+2024-01-04T08:54:11.966+05:30  INFO 19188 --- [http-nio-9091-exec-8] c.reporting.controller.ReportController  : Inside the ReportController.updateBankDetails
+2024-01-04T08:54:11.966+05:30  INFO 19188 --- [http-nio-9091-exec-8] c.reporting.controller.ReportController  : Inside the ReportController.updateBankDetails
+2024-01-04T09:04:59.851+05:30  INFO 8984 --- [main] com.reporting.ReportingApplication       : Starting ReportingApplication using Java 17.0.9 with PID 8984 (C:\Users\HP\Downloads\reporting\reporting\build\classes\java\main started by HP in C:\Users\HP\Downloads\reporting)
+2024-01-04T09:04:59.858+05:30  INFO 8984 --- [main] com.reporting.ReportingApplication       : The following 1 profile is active: "prod"
+2024-01-04T09:05:05.258+05:30  INFO 8984 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-04T09:05:05.380+05:30  INFO 8984 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 0 JPA repository interfaces.
+2024-01-04T09:05:10.592+05:30  INFO 8984 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9091 (http)
+2024-01-04T09:05:10.629+05:30  INFO 8984 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-04T09:05:10.630+05:30  INFO 8984 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-04T09:05:10.970+05:30  INFO 8984 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-04T09:05:10.972+05:30  INFO 8984 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 10675 ms
+2024-01-04T09:05:12.311+05:30  INFO 8984 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-04T09:05:13.356+05:30  INFO 8984 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e706aa
+2024-01-04T09:05:13.362+05:30  INFO 8984 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-04T09:05:13.538+05:30  INFO 8984 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-04T09:05:14.663+05:30  INFO 8984 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-04T09:05:14.950+05:30  INFO 8984 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-04T09:05:16.072+05:30  INFO 8984 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-04T09:05:18.129+05:30  INFO 8984 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-04T09:05:18.148+05:30  INFO 8984 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-04T09:05:19.380+05:30  WARN 8984 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-04T09:05:28.363+05:30  INFO 8984 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-01-04T09:05:28.691+05:30  INFO 8984 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9091 (http) with context path ''
+2024-01-04T09:05:28.766+05:30  INFO 8984 --- [main] com.reporting.ReportingApplication       : Started ReportingApplication in 30.582 seconds (process running for 31.864)
+2024-01-04T09:05:53.131+05:30  INFO 8984 --- [http-nio-9091-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-04T09:05:53.131+05:30  INFO 8984 --- [http-nio-9091-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-04T09:05:53.138+05:30  INFO 8984 --- [http-nio-9091-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2024-01-04T09:05:55.198+05:30  INFO 8984 --- [http-nio-9091-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 1079 ms
+2024-01-04T09:06:05.462+05:30  INFO 8984 --- [http-nio-9091-exec-5] c.reporting.controller.ReportController  : Inside the ReportController.deleteBankById
+2024-01-04T09:06:05.463+05:30  INFO 8984 --- [http-nio-9091-exec-5] c.r.service.ReportingServiceImpl         : Inside the BankServiceImpl.deleteById
+2024-01-04T09:06:05.874+05:30  INFO 8984 --- [http-nio-9091-exec-5] c.r.service.ReportingServiceImpl         : End of BankServiceImpl.deleteById
+2024-01-04T09:06:05.874+05:30  INFO 8984 --- [http-nio-9091-exec-5] c.reporting.controller.ReportController  : Performed :org.springframework.web.reactive.function.client.DefaultWebClient$DefaultRequestBodyUriSpec@4afe24a5
+2024-01-04T09:06:05.875+05:30  INFO 8984 --- [http-nio-9091-exec-5] c.reporting.controller.ReportController  : End of ReportController.deleteBankById
+2024-01-04T09:11:29.858+05:30  INFO 20536 --- [main] com.reporting.ReportingApplication       : Starting ReportingApplication using Java 17.0.9 with PID 20536 (C:\Users\HP\Downloads\reporting\reporting\build\classes\java\main started by HP in C:\Users\HP\Downloads\reporting)
+2024-01-04T09:11:29.868+05:30  INFO 20536 --- [main] com.reporting.ReportingApplication       : The following 1 profile is active: "prod"
+2024-01-04T09:11:33.148+05:30  INFO 20536 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-04T09:11:33.210+05:30  INFO 20536 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 0 JPA repository interfaces.
+2024-01-04T09:11:37.610+05:30  INFO 20536 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9091 (http)
+2024-01-04T09:11:37.664+05:30  INFO 20536 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-04T09:11:37.665+05:30  INFO 20536 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-04T09:11:38.015+05:30  INFO 20536 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-04T09:11:38.016+05:30  INFO 20536 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7910 ms
+2024-01-04T09:11:40.359+05:30  INFO 20536 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-04T09:11:41.219+05:30  INFO 20536 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71262020
+2024-01-04T09:11:41.225+05:30  INFO 20536 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-04T09:11:41.469+05:30  INFO 20536 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-04T09:11:41.917+05:30  INFO 20536 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-04T09:11:42.199+05:30  INFO 20536 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-04T09:11:43.096+05:30  INFO 20536 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-04T09:11:44.108+05:30  INFO 20536 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-04T09:11:44.118+05:30  INFO 20536 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-04T09:11:44.896+05:30  WARN 20536 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-04T09:11:50.132+05:30  INFO 20536 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-01-04T09:11:50.329+05:30  INFO 20536 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9091 (http) with context path ''
+2024-01-04T09:11:50.377+05:30  INFO 20536 --- [main] com.reporting.ReportingApplication       : Started ReportingApplication in 21.828 seconds (process running for 23.12)
+2024-01-04T09:12:11.476+05:30  INFO 20536 --- [http-nio-9091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-04T09:12:11.478+05:30  INFO 20536 --- [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-04T09:12:11.484+05:30  INFO 20536 --- [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-01-04T09:12:13.456+05:30  INFO 20536 --- [http-nio-9091-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 799 ms
+2024-01-04T09:12:21.801+05:30  INFO 20536 --- [http-nio-9091-exec-5] c.reporting.controller.ReportController  : Inside the ReportController.deleteBankById
+2024-01-04T09:12:21.802+05:30  INFO 20536 --- [http-nio-9091-exec-5] c.r.service.ReportingServiceImpl         : Inside the BankServiceImpl.deleteById
+2024-01-04T09:12:23.537+05:30  INFO 20536 --- [http-nio-9091-exec-5] c.r.service.ReportingServiceImpl         : End of BankServiceImpl.deleteById
+2024-01-04T09:12:23.538+05:30  INFO 20536 --- [http-nio-9091-exec-5] c.reporting.controller.ReportController  : Performed :Bank Details Deleted
+2024-01-04T09:12:23.542+05:30  INFO 20536 --- [http-nio-9091-exec-5] c.reporting.controller.ReportController  : End of ReportController.deleteBankById
+2024-01-04T09:57:58.905+05:30  WARN 20536 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=43m47s533ms653µs900ns).
